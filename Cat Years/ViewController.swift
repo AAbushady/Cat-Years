@@ -32,5 +32,7 @@ class ViewController: UIViewController {
             let result = (Int(age!) ?? 0) * 7
             resultLabel.text = "Your cat is \(String(result)) in cat years!"
         }
+        // This will close the keyboard after the button is pressed.
+        self.view.endEditing(true)
     }
 }
