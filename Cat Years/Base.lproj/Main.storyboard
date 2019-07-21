@@ -50,8 +50,8 @@
                                 <color key="textColor" red="1" green="0.01898039092" blue="0.035649099240000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EF7464D1-391B-49C6-928B-64E3333CD209.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vKH-a2-NqZ">
-                                <rect key="frame" x="72" y="361" width="270" height="431"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EF7464D1-391B-49C6-928B-64E3333CD209.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vKH-a2-NqZ">
+                                <rect key="frame" x="15" y="371" width="384" height="470"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -72,6 +72,7 @@
                     </view>
                     <connections>
                         <outlet property="ageField" destination="76A-hZ-wjD" id="tHC-AW-WEg"/>
+                        <outlet property="imageView" destination="vKH-a2-NqZ" id="h9K-dP-g7X"/>
                         <outlet property="resultLabel" destination="EHL-cI-LRd" id="Vj7-Mh-hw7"/>
                     </connections>
                 </viewController>

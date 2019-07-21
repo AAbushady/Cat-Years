@@ -12,9 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ageField: UITextField!
     @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         // This will look for a tap within the View Controller. If it finds a tap it will use the dimissKeyBoard function.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action:Selector(("dismissKeyBoard")))
