@@ -14,6 +14,7 @@
 		3034A19822E50185000DFC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3034A19622E50185000DFC7B /* LaunchScreen.storyboard */; };
 		3034A1A322E50185000DFC7B /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034A1A222E50185000DFC7B /* Cat_YearsTests.swift */; };
 		3034A1AE22E50185000DFC7B /* Cat_YearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034A1AD22E50185000DFC7B /* Cat_YearsUITests.swift */; };
+		3034A1BC22E50380000DFC7B /* EF7464D1-391B-49C6-928B-64E3333CD209.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3034A1BB22E50380000DFC7B /* EF7464D1-391B-49C6-928B-64E3333CD209.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3034A1A922E50185000DFC7B /* Cat YearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3034A1AD22E50185000DFC7B /* Cat_YearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsUITests.swift; sourceTree = "<group>"; };
 		3034A1AF22E50185000DFC7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3034A1BB22E50380000DFC7B /* EF7464D1-391B-49C6-928B-64E3333CD209.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "EF7464D1-391B-49C6-928B-64E3333CD209.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3034A19422E50185000DFC7B /* Assets.xcassets */,
 				3034A19622E50185000DFC7B /* LaunchScreen.storyboard */,
 				3034A19922E50185000DFC7B /* Info.plist */,
+				3034A1BB22E50380000DFC7B /* EF7464D1-391B-49C6-928B-64E3333CD209.jpg */,
 			);
 			path = "Cat Years";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				3034A19822E50185000DFC7B /* LaunchScreen.storyboard in Resources */,
 				3034A19522E50185000DFC7B /* Assets.xcassets in Resources */,
 				3034A19322E50184000DFC7B /* Main.storyboard in Resources */,
+				3034A1BC22E50380000DFC7B /* EF7464D1-391B-49C6-928B-64E3333CD209.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
