@@ -25,14 +25,12 @@ class ViewController: UIViewController {
     @objc func dismissKeyBoard() {
         view.endEditing(true)
     }
-
+    
     @IBAction func buttonTapped(_ sender: Any) {
         let age = ageField.text
-        if age != nil {
-            let result = Int(age!)! * 7
+        if ageField.text != nil {
+            let result = (Int(age!) ?? 0) * 7
             resultLabel.text = "Your cat is \(String(result)) in cat years!"
         }
     }
-    
 }
-
