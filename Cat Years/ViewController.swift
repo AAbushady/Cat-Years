@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     
+    var result = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,10 +32,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonTapped(_ sender: Any) {
-        let age = ageField.text
-        if ageField.text != nil {
-            let result = (Int(age!) ?? 0) * 7
-            resultLabel.text = "Your cat is \(String(result)) in cat years!"
+        if ageField.text?.isEmpty == false {
+            let age = Int(ageField.text!)!
+            if age == 1 {
+                result = 15
+            } else if age == 2 {
+                result = 24
+            } else if age >= 3 {
+                result = 24
+                for _ in 0...(age - 3) {
+                    result += 4
+                }
+            }
+            resultLabel.text = "Your cat is \(result) in cat years!"
         }
         // This will close the keyboard after the button is pressed.
         self.view.endEditing(true)
