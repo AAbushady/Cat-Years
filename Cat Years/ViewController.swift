@@ -34,6 +34,9 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: Any) {
         if ageField.text?.isEmpty == false {
             let age = Int(ageField.text!)!
+            if age == 0 {
+                result = 0
+            }
             if age == 1 {
                 result = 15
             } else if age == 2 {
@@ -44,7 +47,11 @@ class ViewController: UIViewController {
                     result += 4
                 }
             }
-            resultLabel.text = "Your cat is \(result) in cat years!"
+            if age == 0 {
+                resultLabel.text = "Your cat is less than 15 in cat Years!"
+            } else {
+                resultLabel.text = "Your cat is \(result) in cat years!"
+            }
         }
         // This will close the keyboard after the button is pressed.
         self.view.endEditing(true)
