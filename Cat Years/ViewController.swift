@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        imageView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi/2))
         
         // This will look for a tap within the View Controller. If it finds a tap it will use the dimissKeyBoard function.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action:Selector(("dismissKeyBoard")))

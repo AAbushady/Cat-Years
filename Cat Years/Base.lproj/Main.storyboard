@@ -25,19 +25,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How old is your cat?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mg7-GC-rVq">
-                                <rect key="frame" x="125.66666666666667" y="136" width="162.66666666666663" height="21"/>
+                                <rect key="frame" x="125.66666666666667" y="200" width="162.66666666666663" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="76A-hZ-wjD">
-                                <rect key="frame" x="194.66666666666666" y="197" width="25" height="30"/>
+                                <rect key="frame" x="194.66666666666666" y="261" width="25" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fG9-vV-0FX">
-                                <rect key="frame" x="132" y="265" width="150" height="32"/>
+                                <rect key="frame" x="132" y="329" width="150" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Get Age In Cat Years"/>
                                 <connections>
@@ -45,13 +45,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EHL-cI-LRd">
-                                <rect key="frame" x="207" y="330" width="0.0" height="0.0"/>
+                                <rect key="frame" x="207" y="394" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="1" green="0.01898039092" blue="0.035649099240000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="EF7464D1-391B-49C6-928B-64E3333CD209.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vKH-a2-NqZ">
-                                <rect key="frame" x="15" y="371" width="384" height="470"/>
+                                <rect key="frame" x="15" y="493" width="384" height="321"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -63,7 +63,7 @@
                             <constraint firstItem="MU4-n1-Ky3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Iue-qF-6Li"/>
                             <constraint firstItem="EHL-cI-LRd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JZI-09-Ejv"/>
                             <constraint firstItem="MU4-n1-Ky3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MIy-CB-Qxa"/>
-                            <constraint firstItem="mg7-GC-rVq" firstAttribute="top" secondItem="MU4-n1-Ky3" secondAttribute="bottom" constant="36" id="Qre-Ex-fm0"/>
+                            <constraint firstItem="mg7-GC-rVq" firstAttribute="top" secondItem="MU4-n1-Ky3" secondAttribute="bottom" constant="100" id="Qre-Ex-fm0"/>
                             <constraint firstItem="76A-hZ-wjD" firstAttribute="top" secondItem="mg7-GC-rVq" secondAttribute="bottom" constant="40" id="lLh-Hk-8W1"/>
                             <constraint firstItem="fG9-vV-0FX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ndx-v4-eWA"/>
                             <constraint firstItem="mg7-GC-rVq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pSw-3G-8nN"/>
